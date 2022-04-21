@@ -1,3 +1,4 @@
+//加载friends.json
 const request = new XMLHttpRequest();
 request.open("GET", "/friends.json");
 request.onreadystatechange = () => {
